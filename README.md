@@ -69,3 +69,9 @@ Describe algorithm which determine that in the sequence all brackets closed corr
 
 #### Answer:
 [brackets.cpp](brackets.cpp)
+
+#### Comment in message:
+```
+'sometext' | tr -d \' -> sometext
+'sometext' | sed "s/'//g" -> sometext
+```
